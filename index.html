@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vote</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <div class="ace"><h1>TEAM ACE</h1></div>
+    <div class="container">
+       <div class="wrapper" id="wrapper">
+       <div class="header">Vote Your Favorite Person</div>
+        
+        <div class="row  boy">
+            <div class="col-lg-6 boyy">
+               <div class="small">
+               <table>
+                      <tr>
+                          <td><img src="images/img1.jpg" alt="" class="img2" width="25px" height="25px" ></td>
+                          <td> <span><h5> <b>Opeoluwa </b></h5></span></td>
+                      </tr>
+                      
+                      <tr><h5>Lagos</h5></tr>
+                  </table>
+          
+                   
+               </div>
+                <div class="img1" onclick="imgg1()"> <img src="images/img1.jpg" alt="" width="200px" height="200px"> <span><h4>Opeoluwa</h4></span> </div>
+            </div>
+            
+             <div class="col-lg-6">
+                <div class="small">
+                  <table>
+                      <tr>
+                          <td><img src="images/img2.jpg" alt="" class="img2" width="25px" height="25px" ></td>
+                          <td> <span><h5> <b>Perl Kadasian </b></h5></span></td>
+                      </tr>
+                      
+                      <tr><h5>Abuja</h5></tr>
+                  </table>
+                   
+               </div>
+                 <div id="im2" class="img2" onclick="immg2()"><img src="images/img2.jpg" alt="" width="200px" height="200px"> <h4>Perl Kadasian</h4> </div>
+             </div>
+             
+             
+        </div>
+
+        
+           
+            <div class="row boy">
+            <div class="col-lg-6 ">
+               <span> <i class="fa fa-thumbs-up" aria-hidden="true" onclick="imgg1()"></i></span>
+                <div class="count" id="count1"></div>
+            </div>
+            
+             <div class="col-lg-6" >
+                <span> <i class="fa fa-thumbs-up" aria-hidden="true" onclick="immg2()"></i></span>
+
+                 <div class="count" id="count2"> </div>
+             </div>
+             
+             
+        </div>
+        </div>
+        
+        
+        <button onclick="checkWin()" class="btn btn-primary">Check Winner</button>
+        <div class="wrapper2" id="win" > </div>
+    </div>
+    
+    <script src="script1.js"></script>
+</body>
+</html>

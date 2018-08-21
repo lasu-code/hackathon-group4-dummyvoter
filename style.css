@@ -1,0 +1,53 @@
+body{
+    background-color: lightcyan;
+}
+.ace{
+    text-align: center;
+    color: blueviolet;
+    font-family: fantasy;
+    font
+}
+.container .header{
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.wrapper{
+    width: 700px;
+    height: 400px;
+    border: 1px solid black;
+    margin-top: 70px;
+    margin-left: 200px;
+
+}
+
+span{
+    font-size: 25px;
+}
+
+.wrapper2{
+    width: 700px;
+    height: 200px
+    border: 1px solid black;
+    margin-top: 70px;
+    margin-left: 200px;
+    display: none;
+    font-family: sans-serif;
+    color: blueviolet;
+    font-size: 50px;
+}
+
+.boy{
+    padding-left: 100px;
+}
+
+
+i{
+    color: blueviolet
+};
